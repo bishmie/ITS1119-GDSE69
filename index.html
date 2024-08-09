@@ -1,11 +1,487 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
+    <meta name= "description" content="this is the description">
+    <link rel="icon" type="image/x-icon" href="icon.png">
+
     <title>IJSE</title>
+    <style>
+    h2{
+    color : green;
+    }
+    #topic{
+    color: yellow,
+    background : blue;
+    }
+        .myclass{
+        color:blue;}
+
+        [href^="https"]{
+        font-weight:bold;
+        background : yellow ;}
+        [href$=".com"]{
+        background:green;}
+
+        [href$=".lk"]{
+        background:red;}
+        [href*="ijse"]{
+        font-weignt:bold; }
+
+        h2:hover{
+        color:red;}
+
+        h2:active{
+        color:purple}
+        input:focus{
+        background : yellow;}
+
+<!--        li:first-child{-->
+<!--        color:red;-->
+<!--        background:yellow;-->
+<!--        }-->
+<!--        li:last-child{-->
+<!--        color:blue;-->
+<!--        background:orange;-->
+
+<!--        }-->
+<!--        li:nth-last-child(2){-->
+<!--        color:white;-->
+<!--        background:black;}-->
+
+<!--       li:nth-child(even){-->
+<!--        color:hotpink;-->
+<!--        background : lightpink;}-->
+
+<!--        li:nth-child(odd){-->
+<!--        color:hotpink;-->
+<!--        background:lightpink;        }-->
+
+<!--        li:nth-child(n+4){-->
+<!--        color:hotpink;-->
+<!--        background:lightpink;-->
+<!--        }-->
+
+<!--        li:nth-child(3n-1){-->
+<!--        color:hotpink;-->
+<!--        background:lightpink;-->
+<!--        }-->
+
+        h1:before{
+        content: "😊" ;
+
+        }
+        h1:hover::before{
+        background:blue;
+        }
+
+         h1:after{
+        content: "hello" ;
+        }
+        p:first-letter{
+        font-weight:bold;
+        }
+
+        p:first-line{
+        background:yellow;}
+
+        li:marker{
+        content : "😊";
+        }
+
+    </style>
 </head>
 <body>
 <h1> IJSE - SOFTWARE ENGINEERING</h1>
 <h2> #1 Software engineering </h2>
+
+<p> hello njieufhue <strong> beuyeubx</strong> mc ewidjiewbu</p>
+ <p> ejhbivew <b> egesg </b>jnoi3wdjo3id <i> vytuy</i> idnoeijdo  bytfy <u> bvytfy</u></p>
+<p> mfjbiwaufbiw jdbqwiudhi iqj9s8q9  <mark> fuegwu </mark></p>
+<address> riugi jfbiuew uiwehf</address>
+
+<center> hi</center>
+
+<table border="1">
+    <caption> Persons</caption>
+    <thead>
+    <th colspan="2"> ID</th>
+
+    <th> Address</th>
+    <th> Phone</th>
+
+    </thead>
+    <tbody>
+    <tr>
+        <td> 1</td>
+        <td> Nimal</td>
+        <td> Galle</td>
+        <td rowspan="2"> 0781302664</td>
+    </tr>
+
+    <tr>
+        <td> 2</td>
+        <td> Amal</td>
+        <td> Kandy</td>
+
+    </tr>
+
+    <tr>
+        <td> 3</td>
+        <td> sunil</td>
+        <td> kalutara</td>
+        <td> 0781302664</td>
+    </tr>
+    </tbody>
+
+
+</table>
+<br>
+
+
+<table border="1">
+    <thead>
+    <th> Id</th>
+    <th> Name</th>
+    <th colspan="2"> Emails</th>
+    <th> Parent's Name</th>
+
+    </thead>
+
+    <tbody>
+    <tr>
+        <td> 1</td>
+        <td> Kavindu</td>
+        <td> kavindu1@gmail.com</td>
+        <td> kavindu2@gmail.com</td>
+        <td> Mr.Rathnayake</td>
+
+    </tr>
+
+    <tr>
+        <td> 2</td>
+        <td> Janith</td>
+        <td> Janith1@gmail.com</td>
+        <td> Janith2@gmail.com</td>
+        <td> Mr.Sarath</td>
+
+    </tr>
+    <tr>
+        <td> 2</td>
+        <td> Sheron</td>
+        <td colspan="2"> sheron@gmail.com</td>
+        <td rowspan="2"> Mr.Kamal</td>
+
+    </tr>
+    <tr>
+        <td> 4</td>
+        <td> Brian</td>
+        <td> Brian1@gmail.com</td>
+        <td> brian2@gmail.com</td>
+
+
+    </tr>
+    <tr>
+        <td> 5</td>
+        <td> vishwa</td>
+        <td> vishwa1@gmail.com</td>
+        <td> vishwa2@gmail.com</td>
+        <td> Mr.nihal</td>
+
+    </tr>
+    <tr>
+        <td> 6</td>
+        <td> saroja</td>
+        <td colspan="2" rowspan="2" > saroja@gmail.com</td>
+
+        <td rowspan="2"> Mr.Nelson</td>
+
+    </tr>
+    <tr>
+        <td> 7</td>
+        <td> sarojini</td>
+
+
+    </tr>
+
+    </tbody>
+
+</table>
+
+<img src="assests/images/large.jpg" alt="iphone 14 pro" title="apple 14 pro">
+
+<picture>
+    <source media="(min-width : 1000px)" srcset="assests/images/large.jpg">
+    <source media="(min-width : 800px)" srcset="assests/images/medium.jpg">
+<img src="assests/images/small.jpg" alt="iphone 14 pro">
+
+</picture>
+
+<video src="assests/videos/videos/car.mp4" controls> </video>
+<video src="assests/videos/videos/car.mp4"
+       muted
+       autoplay
+       controls
+       poster="assests/images/PHOTO-2024-07-13-09-56-15.jpg"
+       width=" 700"
+       height="400">
+
+
+    <source src= "assests/videos/videos/car.mp4" type="video/mp4">
+    <source src="assests/videos/videos/car.webm" type="video/webm">
+    <track label="english" kind="subtitles" src="assests/videos/videos/subtitles/sample.vtt" srclang="en" >
+    <track label="arabic" kind="subtitles" src="assests/videos/videos/subtitles/arabic.vtt" srclang="ar">
+
+
+</video>
+
+<audio controls >
+<source src="assests/audios/audio_file1.mp3 " type="audio/mp3">
+
+</audio>
+<hr>
+<br>
+<br>
+<br>
+<form>
+
+    <input type="password">
+    <input type="text"> <!-- inline level elements -->
+    <input type="email"> <!-- email ekkma enter krnna one form eka fill krddi -->
+
+    <input type="text"> <!-- inline level elements -->
+    <br>
+    <br>
+    <br>
+    <input type="email"> <!-- email ekkma enter krnna one form eka fill krddi -->
+    <br>
+    <br>
+    <input type="button">
+    <br>
+    <br>
+    <input type="checkbox">
+    <input type ="radio">
+    <input type="color">
+    <input type="date" min ="2024-06-10">
+    <input type="datetime-local">
+
+    <br>
+    <br>
+    <input type="month">
+    <input type="week">
+    <input type="time">
+    <input type="number">
+    <input type="search">
+    <input type="url">
+    <input type="tel">
+
+    <br>
+    <br>
+    <input type="range">
+    <input type="file">
+    <input type="hidden">
+    <input type="button" value="button" >
+    <input type="reset">
+    <input type="submit" value="submit">
+
+    <label for ="first-Name">First Name </label><br>
+    <input type="text" id="first-Name">
+
+    <label for="message">Message</label><br>
+    <textarea
+        placeholder= "Enter your message"
+        id="message"
+        rows="10">
+        </textarea>
+
+<br>
+    <br>
+<label for="program1"> Prgram</label>
+    <select id="program1">
+        <option value="p1"> Java SE</option>
+        <option value="p2"> Java EE</option>
+        <option value="p3"> SpringBoot</option>
+        <option value="p4"> GO </option>
+
+
+    </select>
+
+</form>
+<br>
+<br>
+<br>
+
+<form action="test.html" method="post">
+
+    <h1>Student Form</h1>
+
+    <label for="first-name">First Name</label> <br>
+    <input type="text" name="fname" id="firstname" placeholder="Enter your first name"> <br><br>
+
+    <label for="last-name">Last Name</label> <br>
+    <input type="text" name="lname" id="last-name" placeholder="Enter your last name"> <br><br>
+
+    <label for="message">Message</label> <br>
+    <textarea
+            name="message"
+            placeholder="Enter your message"
+            id="message1"
+            rows="10"
+            cols="100"
+    ></textarea>
+
+    <br><br>
+
+    <label for="program">Program</label> <br>
+    <select id="program" name="program">
+        <option value="">Select your program</option>
+        <option value="p1">Java SE</option>
+        <option value="p2">Java EE</option>
+        <option value="p3">Spring boot</option>
+        <option value="p4">NodeJs</option>
+        <option value="p5">GO</option>
+        <option value="p6">Perl</option>
+    </select>
+
+    <br><br>
+
+    <!--
+        button
+        submit
+        reset
+    -->
+
+<br>
+    <br>
+    <form action="">
+        <label for="program2">Program</label> <br>
+        <select id="program2" name="program2">
+            <option value="">Select your program</option>
+            <option value="p1">Java SE</option>
+            <option value="p2">Java EE</option>
+            <option value="p3">Spring Boot</option>
+            <option value="p4">NodeJs</option>
+            <option value="p5">GO</option>
+            <option value="p6">Perl</option>
+        </select>
+
+        <br><br>
+
+        <label>Payment Type</label><br>
+        <input type="radio" id="oneTime" name="payment" value="oneTime">
+        <label for="oneTime">One Time Payment</label><br>
+
+        <input type="radio" id="monthly" name="payment" value="monthly">
+        <label for="monthly">Monthly Payment</label>
+
+
+        <br>
+        <br>
+        <input type="text" list="deve">
+        <datalist id="deve">
+        <option value="developer"> frontend </option>
+            <option value="back end dev"> backend</option>
+            <option value="ui/ux"> ui ux</option>
+        </datalist>
+        <br>
+
+        <button type="button">Click</button>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+
+</form>
+
+<br>
+<br>
+<br>
+<hr>
+<form oninput="result.value=parseInt(A.value+B.value)">
+<input type="number" id="num" name="A">
+    <input type="number" id="num2" name="B">
+<output name="result" for="a b">0</output>
+</form>
+<br>
+<br>
+<ol type="1">
+    <li>java</li>
+    <li> html</li>
+    <li> css</li>
+</ol>
+
+<ul type="square">
+    <li>html</li>
+    <li>java</li>
+    <li>css</li>
+</ul>
+
+<dl>
+    <dt> asia</dt>
+<dd> Sri lanka</dd>
+    <dd> india</dd>
+    <dd> china</dd>
+
+    <dt> europe</dt>
+    <dd> italy</dd>
+    <dd>  germany</dd>
+    <dd>  france</dd>
+</dl>
+
+<hr>
+<ol type="1">
+    <li> Java</li>
+    <li> Python</li>
+    <li> perl</li>
+    <li> C+</li>
+    <li> Internet Technologies</li>
+         <ol type="1">
+             <li> HTML</li>
+             <li> CSS</li>
+             <li> JS</li>
+                <ul type="square">
+                    <li> Core javascript</li>
+                    <li> jquery</li>
+                    <li> angular</li>
+                    <li> react</li>
+                    <li> vue</li>
+                </ul>
+             <li> UI/UX</li>
+         </ol>
+</ol>
+
+<br>
+<br>
+<h2> WELCOME TO IJSE </h2>
+<h3 style="color:blue"> welcome to ijse</h3>
+<h2 style="color:green"> welcome to ijse</h2>
+
+<h2 class="myclass"> jchseiwfuhweioifcoweicjowlacopwqjdocwiqhdcbniqwknafsdcwiubsj</h2>
+<p class="myclass"> cneiufonwoqdpwqokampda</p>
+<a href ="https/ijse.lk"> ijse</a>
+<a href ="https/ijse.lk.com"> ijse</a>
+<a href ="https/ijse.lk"> hello</a>
+
+
+<a href="https://sirasatv.lk"> Sirasa TV</a>
+<a href="https://hirutv.lk"> Hiru TV</a>
+<a href="https://supremetv.lk"> Supreme TV</a>
+
+<br>
+<br>
+<p> mncseohfoiewufojwefpowqfjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjasmzxk msnz. fjesbdkcjwasdkawjbsdiuekwjhbfdkc x,m..ndiuwgdiwubdjk wjnmvxuygjcvwjhadsn fikj.cnebwiyvhb dcxnbzvxjwhsbm</p>
+<br>
+ <input type="text" placeholder="enter your name">
+
+<br>
+<br>
+<br>
+<ul>
+<li> A</li>
+    <li> B</li>
+    <li> C</li>
+    <li> D</li>
+    <li> E</li>
+
+</ul>
 </body>
 </html>
